@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="http://localhost/Nutritrack/login/style__login.css"
+    </head>
+    <body>
+        <h1>NutriTracks</h1>
+
+        <form action="signup.php" method="POST">
+
+        
+        <div class="wrapper">
+            <ul style="list-style: none;">
+                <h3>Account</h3>
+
+            <li><label>username
+                <input type="text" name="username">
+            </label></li>
+
+            <li><label>password
+                <input type="password" name="password">
+            </label></li>
+            
+            <li><label>confirmed password
+                <input type="password" name="confirmedpassword">
+            </label></li>
+
+            <br>
+
+            <h3>PersonalInfo</h3>
+
+            <li><label>Firstname
+                <input type="text" name="fname">
+            </label></li>
+
+            <li><label>Lastname
+                <input type="text" name="lname">
+            </label></li>
+
+            <li><label>email
+                <input type="text" name="email">
+            </label></li>
+
+            <li><label>Date of birth
+                <input type="date" name="birthday">
+            </label></li>
+
+            <li><label>Gender:</label>
+                <input type='radio' name='gender' value='male'>Male</input>
+                <input type='radio' name='gender' value='female'>Female</input><br> </li>
+            
+            <li><label>weight (cm)
+                <input type="text" name="weight">
+            </label></li>
+
+            <li><label>height (cm)
+                <input type="text" name="height">
+            </label></li>
+            
+        </ul>
+        <input type="submit" value="Sign UP!">
+    </div>
+    </form>
+        
+
+    </body>
+</html>

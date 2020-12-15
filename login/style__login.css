@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+
+     /*===== Colors =====*/
+  --first-color: #FCA4A6;
+  --first-color-dark: #C1576A;
+  --first-color-darken: #A83E51;
+  --white-color: #FCF8F8;
+  
+  /*===== Font and typography =====*/
+  --body-font: 'Poppins', sans-serif;
+  --big-font-size: 3rem;
+  --normal-font-size: .938rem;
+
+}
+body {
+    background-color: var(--first-color);
+}
+
+h1 {
+    font-family: var(--body-font);
+    font-size: var(--big-font-size);
+    color: var(--white-color);
+    text-align: center;
+}
+
+a{
+    font-size: var(--first-color);
+    text-decoration: none;
+    color: var(--first-color-darken);
+    text-align: center;
+    font-family: var(--body-font);
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #C1576A;
+    font-family: var(--body-font);
+    text-align: center;
+}
+input {
+    font-size: 2.5rem;
+    color: #C1576A;
+    font-family: var(--body-font);
+    text-align: center;
+
+}
+
+label {
+    font-size: 2.5rem;
+    color: #C1576A;
+    font-family: var(--body-font);
+    text-align: center;
+    
+}
+.wrapper {
+    color: #C1576A;
+    font-family: var(--body-font);
+    text-align: center;
+
+}
+h3{
+    color: var(--white-color);
+    font-family: var(--body-font);
+    text-align: center;
+    font-size: 2rem;
+}
+
+table{
+    text-align: center;
+    background-color: var(--white-color);
+    margin-left: 33%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-collapse: collapse ;
+}
+
+
